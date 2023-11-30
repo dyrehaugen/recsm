@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>6 Agent Based Macro | Methods and Models of Economics</title>
+  <meta name="description" content="6 Agent Based Macro | Methods and Models of Economics" />
+  <meta name="generator" content="bookdown 0.35 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="6 Agent Based Macro | Methods and Models of Economics" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta name="github-repo" content="dyrehaugen/recsm" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="6 Agent Based Macro | Methods and Models of Economics" />
+  
+  
+  
+
+<meta name="author" content="Dyrehaugen Web Notebook" />
+
+
+<meta name="date" content="2023-09-19" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="economic-modelling.html"/>
+<link rel="next" href="cost-benefit-analysis.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Methods and Models of Economics</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Economics</a></li>
+<li class="chapter" data-level="2" data-path="economic-planning.html"><a href="economic-planning.html"><i class="fa fa-check"></i><b>2</b> Economic Planning</a></li>
+<li class="chapter" data-level="3" data-path="planning.html"><a href="planning.html"><i class="fa fa-check"></i><b>3</b> Planning</a></li>
+<li class="chapter" data-level="4" data-path="economic-measurements.html"><a href="economic-measurements.html"><i class="fa fa-check"></i><b>4</b> Economic Measurements</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="economic-measurements.html"><a href="economic-measurements.html#our-besda-economy"><i class="fa fa-check"></i><b>4.1</b> Our BESDA economy</a>
+<ul>
+<li class="chapter" data-level="4.1.1" data-path="economic-measurements.html"><a href="economic-measurements.html#gdp-and-ebitda"><i class="fa fa-check"></i><b>4.1.1</b> GDP and EBITDA</a></li>
+<li class="chapter" data-level="4.1.2" data-path="economic-measurements.html"><a href="economic-measurements.html#a-besda-economy"><i class="fa fa-check"></i><b>4.1.2</b> A BESDA economy</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2" data-path="economic-measurements.html"><a href="economic-measurements.html#gdp"><i class="fa fa-check"></i><b>4.2</b> GDP</a>
+<ul>
+<li class="chapter" data-level="4.2.1" data-path="economic-measurements.html"><a href="economic-measurements.html#gdp-revisions"><i class="fa fa-check"></i><b>4.2.1</b> GDP Revisions</a></li>
+<li class="chapter" data-level="4.2.2" data-path="economic-measurements.html"><a href="economic-measurements.html#gdp-alternatives"><i class="fa fa-check"></i><b>4.2.2</b> GDP Alternatives</a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="economic-measurements.html"><a href="economic-measurements.html#sna"><i class="fa fa-check"></i><b>4.3</b> SNA</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="economic-modelling.html"><a href="economic-modelling.html"><i class="fa fa-check"></i><b>5</b> Economic Modelling</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="economic-modelling.html"><a href="economic-modelling.html#model-land"><i class="fa fa-check"></i><b>5.1</b> Model-land</a></li>
+<li class="chapter" data-level="5.2" data-path="economic-modelling.html"><a href="economic-modelling.html#end-of-theory"><i class="fa fa-check"></i><b>5.2</b> End of Theory</a></li>
+<li class="chapter" data-level="5.3" data-path="economic-modelling.html"><a href="economic-modelling.html#jackson-victor"><i class="fa fa-check"></i><b>5.3</b> Jackson-Victor</a></li>
+<li class="chapter" data-level="5.4" data-path="economic-modelling.html"><a href="economic-modelling.html#eurogreen-model"><i class="fa fa-check"></i><b>5.4</b> Eurogreen Model</a></li>
+<li class="chapter" data-level="5.5" data-path="economic-modelling.html"><a href="economic-modelling.html#harmoney"><i class="fa fa-check"></i><b>5.5</b> HARMONEY</a></li>
+<li class="chapter" data-level="5.6" data-path="economic-modelling.html"><a href="economic-modelling.html#input-output"><i class="fa fa-check"></i><b>5.6</b> Input-Output</a></li>
+<li class="chapter" data-level="5.7" data-path="economic-modelling.html"><a href="economic-modelling.html#lowgrow-sfc"><i class="fa fa-check"></i><b>5.7</b> LowGrow SFC</a></li>
+<li class="chapter" data-level="5.8" data-path="economic-modelling.html"><a href="economic-modelling.html#medeas"><i class="fa fa-check"></i><b>5.8</b> MEDEAS</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="agent-based-macro.html"><a href="agent-based-macro.html"><i class="fa fa-check"></i><b>6</b> Agent Based Macro</a></li>
+<li class="chapter" data-level="7" data-path="cost-benefit-analysis.html"><a href="cost-benefit-analysis.html"><i class="fa fa-check"></i><b>7</b> Cost Benefit Analysis</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="cost-benefit-analysis.html"><a href="cost-benefit-analysis.html#discounting"><i class="fa fa-check"></i><b>7.1</b> Discounting</a></li>
+</ul></li>
+<li class="part"><span><b>I Appendices</b></span></li>
+<li class="appendix"><span><b>Appendices</b></span></li>
+<li class="chapter" data-level="A" data-path="about.html"><a href="about.html"><i class="fa fa-check"></i><b>A</b> About</a></li>
+<li class="chapter" data-level="B" data-path="links.html"><a href="links.html"><i class="fa fa-check"></i><b>B</b> Links</a></li>
+<li class="chapter" data-level="C" data-path="news.html"><a href="news.html"><i class="fa fa-check"></i><b>C</b> NEWS</a>
+<ul>
+<li class="chapter" data-level="C.1" data-path="news.html"><a href="news.html#market-based-development-finance-in-crisis"><i class="fa fa-check"></i><b>C.1</b> 221220 Market-based development finance in crisis</a></li>
+<li class="chapter" data-level="C.2" data-path="news.html"><a href="news.html#carney-calls-for-stronger-government-regulation"><i class="fa fa-check"></i><b>C.2</b> 210717 Carney calls for stronger Government Regulation</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/dyrehaugen/recsm" target="blank">On Github</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Methods and Models of Economics</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="agent-based-macro" class="section level1 hasAnchor" number="6">
+<h1><span class="header-section-number">6</span> Agent Based Macro<a href="agent-based-macro.html#agent-based-macro" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p><em>Poledna Abstract</em></p>
+<p>We develop the first agent-based model (ABM) that can compete with benchmark VAR and DSGE models in
+out-of-sample forecasting of macro variables. Our ABM for a small open economy uses micro and macro data
+from national and sector accounts, input-output tables, government statistics, census and business demography
+data. The model incorporates all economic activities as classified by the European System of Accounts as
+heterogeneous agents. The detailed structure of the ABM allows for a breakdown into sector level forecasts.
+Potential applications of the model include stress-testing and predicting the effects of changes in monetary,
+fiscal, or other macroeconomic policies.</p>
+<p><a href="https://www.rebuildingmacroeconomics.ac.uk/research-prize-complexity-macro">Poledna (2021) Economic Forecasting with ABM</a>
+<a href="pdf/Poledna_2021_Economic_Forecasting_ABM.pdf">(pdf)</a></p>
+
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="economic-modelling.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="cost-benefit-analysis.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/dyrehaugen/recsm/edit/master/611-agent-based.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["recsm.pdf", "recsm.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
