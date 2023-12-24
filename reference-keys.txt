@@ -19,6 +19,7 @@ eurogreen-model
 harmoney
 input-output
 lowgrow-sfc
+solow-model
 cost-benefit-analysis
 discounting
 about

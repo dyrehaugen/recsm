@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>2 Economic Planning | Economic Methods and Models</title>
-  <meta name="description" content="2 Economic Planning | Economic Methods and Models" />
+  <title>6 Solow Model | Economic Methods and Models</title>
+  <meta name="description" content="6 Solow Model | Economic Methods and Models" />
   <meta name="generator" content="bookdown 0.35 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="2 Economic Planning | Economic Methods and Models" />
+  <meta property="og:title" content="6 Solow Model | Economic Methods and Models" />
   <meta property="og:type" content="book" />
   
   
   <meta name="github-repo" content="dyrehaugen/recsm" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="2 Economic Planning | Economic Methods and Models" />
+  <meta name="twitter:title" content="6 Solow Model | Economic Methods and Models" />
   
   
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="index.html"/>
-<link rel="next" href="planning.html"/>
+<link rel="prev" href="economic-modelling.html"/>
+<link rel="next" href="cost-benefit-analysis.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -139,15 +139,50 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="economic-planning" class="section level1 hasAnchor" number="2">
-<h1><span class="header-section-number">2</span> Economic Planning<a href="economic-planning.html#economic-planning" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<p><em>Krahé</em></p>
-<p>Planning—the setting of economic priorities via non-market means—must be distinguished from a command economy. A command economy, in contrast to planning, is one particular way of injecting plans into the division of labor, namely with command and control measures.16 As France, Sweden, Japan and other mixed economies demonstrated in the wake of WWII, there are many other ways to introduced plans into an economy: from direct public investment, via taxes and subsidies, to banking regulation, credit guidance, and foreign exchange allocation, to name but a few.17 The advantage of planning is its ability to focus resources, create and channel energies, and reduce uncertainty. Pierre Massé, former General Commissioner of Planning in France, called it <em>l’anti-hasard</em>.</p>
-<p>When the Monnet Plan was introduced in France in 1946, its goal was to reach the nation’s pre-war production level by 1948, and then surpass it by 50 percent by 1950. Under the slogan “modernization or decadence,” it prioritized investment over consumption, allocated scarce US dollar reserves to their most important uses, and channeled resources into sectors identified as crucial for restarting and growing France’s economy. “Bottlenecks were broken during the early days,”19 and while not all targets were reached, the plan provided “discipline, direction, vision, confidence, and hope.”20</p>
-<p>The Monnet Plan navigated a situation not entirely unlike our own. In the postwar moment, both domestic funds and foreign exchange were scarce. Since dollars and francs were not freely exchangeable at the time, they had to be budgeted for separately, acting as a double budget constraint. Today, we again face a double budget constraint: economic and ecological.</p>
-<p>The Monnet Plan navigated this tightly binding double constraint through prioritization. Instead of attempting to plan for all sectors, the Plan focused on six strategic industries: electricity, steel, coal mining, transport, cement, and agricultural machinery.21 The lesson for today is obvious. Focus on the five sectors driving climate change, land use, and biodiversity loss today: energy, transport, industry,22 housing, and agriculture.</p>
-<p>The process of sectoral planning was led by a core staff in the Commissariat général du Plan, numbering around 100. This core staff cooperated with a number of so-called modernization commissions, composed of representatives from the state, employers, and trade unions, which tackled either specific sectors or cross-cutting themes like finance or labor.</p>
-<p><a href="https://www.phenomenalworld.org/analysis/climate-planning/">Krahé (2002) The Whole Field - Markets, planning, and coordinating the green transformation</a></p>
+<div id="solow-model" class="section level1 hasAnchor" number="6">
+<h1><span class="header-section-number">6</span> Solow Model<a href="solow-model.html#solow-model" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p><em>Smith</em></p>
+<p>The amazing thing about the Solow model is that it does tell us a few incredibly important things about growth. As I see it, the two key lessons are:</p>
+<ul>
+<li><p>Eventually, building more physical capital stops making your economy grow.</p></li>
+<li><p>It’s possible to build so much physical capital that you make your people poor.</p></li>
+</ul>
+<p>The Solow model assumes that economic output — also called “production” or “GDP” — comes from three things:</p>
+<ol style="list-style-type: decimal">
+<li><p>Labor (human work effort)</p></li>
+<li><p>Physical capital (machines, buildings, vehicles, etc.)</p></li>
+<li><p>A mysterious quantity called “total factor productivity” (TFP), usually abbreviated as “A”, which some people associate with technology</p></li>
+</ol>
+<p>The Solow model deals mostly with the question of how physical capital affects growth.</p>
+<p>Solow’s model makes three very reasonable assumptions about how physical capital works. It assumes:</p>
+<ol style="list-style-type: decimal">
+<li><p>You can build more physical capital by saving and investing.</p></li>
+<li><p>Physical capital depreciates over time (at a constant rate).</p></li>
+<li><p>On its own, physical capital has diminishing returns.</p></li>
+</ol>
+<p>The first of these assumptions is actually the most subtle. The basic intuition is that you can set aside a certain amount of your GDP every year to build physical capital — like a farmer choosing to reserve a certain percentage of the annual corn harvest as seed corn for planting next year’s crop. But most real types of physical capital don’t work like seed corn — a sewing machine can’t be used to create new sewing machines, etc. So what Solow is actually assuming is that we set aside a certain percent of our financial income and use it to pay people to build more capital. It basically assumes a market where sewing machines, and any kind of capital, can be constructed for a price.</p>
+<p>Suppose we hold the number of workers constant. In that case, the relationship between physical capital and economic output looks like this:</p>
+<p><img src="fig/solow.jpg" /></p>
+<p>The red line is straight because depreciation just depends on how much capital you have. If you have 10 times as much capital, then 10 times is much is depreciating every year.</p>
+<p>The blue line is how much gets produced. As I said before, when the number of people is fixed, building more physical capital has diminishing returns. That’s why the curve is concave — each piece of capital you add gives you a little less additional output than the previous one.</p>
+<p>The green line is how much production goes into building new capital. The Solow model assumes that a country saves and invests a constant fraction of its output. So the green line is just the fraction of output that gets invested — i.e, the fraction that gets plowed back into either building new capital or maintaining old capital. This has diminishing returns too, since investment has to come from output. That’s why the green line is curved like the blue line.</p>
+<p>So what does this tell us about how economies grow? It tells us one incredibly important thing. It tells us that because of depreciation and diminishing returns, a country simply<em>can’t</em> build its way to infinitely high standards of living. If you just keep trying to build more and more, at some point depreciation overwhelms you. and you just can’t build any more!</p>
+<p>Over the last four decades, China has built an absolutely incredible amount of physical capital — in absolute terms, the most any country has ever built in history.
+The Solow model gives a simple explanation for how China was able to build this much, this fast: It had a very high rate of savings and investment, far higher even than other Asian countries.</p>
+<p>China dedicated everything it had to building massive amounts of physical capital, leaving relatively little of its economic output left over for its people’s consumption. As a result, it grew very very quickly.
+This type of growth has a limit. Just as the model would predict, China started hitting diminishing returns. We started seeing “ghost cities” and massive overcapacity in all sorts of industrial sectors. China’s incremental capital-output ratio — the dollars of capital needed in order to generate an additional dollar of GDP — rose relentlessly from around 2007.</p>
+<p>On top of that, there’s depreciation to deal with. When you build that many apartment towers and highways and office buildings, you’re eventually going to have to maintain them. This is especially true of China, which tends to build things using cheap materials that don’t last very long. And when you build that many machine tools and vehicles, you’re going to have to work very hard just to replace them all as they age.</p>
+<p>China is already probably struggling with capital depreciation. But it’s likely that the Solow model’s assumption of a constant rate of depreciation is only true in the long run, and that in the early days of a country’s building spree it’s not that much of a problem — you have to wait 20 or 30 years for all that shiny new stuff to start falling apart. So the depreciation of the massive capital stock China has built since the 1990s will probably be a bigger drag on growth in the years to come.</p>
+<p>Slowing growth from physical capital accumulation is the Solow model’s first big insight. The second is that it’s actually possible for a country to save and invest so much of its income, and build so much physical capital, that it actually makes its citizens poorer.
+The more you build, the more you have to pay to upkeep in the future.
+There’s a point called the “golden rule”, above which saving and investing more of your national income just forces your citizens to forego more and more consumption in order to stave off capital depreciation.</p>
+<p>In the Solow model, the optimal savings rate is lower if population growth is lower.
+China’s population is now shrinking, and its working-age population is falling rapidly. So the Solow model serves as a warning to China’s leaders that they should consider encouraging their people to consume more.</p>
+<p>So even though it’s a simplistic theory — almost a toy model, really — the Solow model can tell us a lot about the biggest and most important economic growth story of modern history. The basic lesson is that the usefulness of building sprees like China’s has a sell-by date. Eventually, physical capital accumulation stops being able to grow your economy, and can even backfire by reducing living standards. It’s a lesson China’s leaders, and companies considering investing in China, would do well to heed.</p>
+<p><strong>TFP</strong></p>
+<p>Of course, there is a vast amount that the Solow model can’t tell us about economic growth. Most of those unanswered questions are contained in that innocuous little letter “A”; as one of Solow’s contemporaries put it, total factor productivity is a measure of our ignorance. One factor exacerbating China’s growth slowdown is that TFP growth has slowed relentlessly over the last three decades</p>
+<p>As of right now, China’s income is less than a third of the U.S.’ If China’s growth slows down to developed-country levels while only reaching 1/3 of rich-world living standards, it will represent a major failure for the country’s economic system.</p>
+<p><a href="https://www.noahpinion.blog/p/what-the-solow-model-can-teach-us">Smith (2023) What the Solow Model can teach us about China</a></p>
 
 </div>
             </section>
@@ -155,8 +190,8 @@
           </div>
         </div>
       </div>
-<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="planning.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="economic-modelling.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="cost-benefit-analysis.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -187,7 +222,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/dyrehaugen/recsm/edit/master/302-planning.Rmd",
+"link": "https://github.com/dyrehaugen/recsm/edit/master/611-solow.Rmd",
 "text": "Edit"
 },
 "history": {
